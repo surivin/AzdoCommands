@@ -1,0 +1,18 @@
+﻿<Environments>
+  <Environment name="SNOW">
+    <Command name="ExportGlobalList">witadmin exportglobalist /collection:"https://alm-[Env].rd.allscripts.com/tfs/boc_projects" /f:"C:\tools\GlobalList[Env].xml"</Command>
+    <Command name="ImportGlobalList">witadmin importglobalist /collection:"https://alm-[Env].rd.allscripts.com/tfs/boc_projects" /f:"C:\tools\GlobalList[Env].xml"</Command>
+    <Command name="ExportCategories">witadmin exportcategories /collection:"https://alm-[Env].rd.allscripts.com/tfs/boc_projects" /f:"C:\tools\Cagtegories[Env].xml"</Command>
+    <Command name="ImportCategories">witadmin importcategories /collection:"https://alm-[Env].rd.allscripts.com/tfs/boc_projects" /f:"C:\tools\Cagtegories[Env].xml"</Command>
+    <Command name="ExportProcessConfig">witadmin exportprocessconfiguration /collection:"https://alm-[Env].rd.allscripts.com/tfs/boc_projects" /f:"C:\tools\ProcessConfig[Env].xml"</Command>
+    <Command name="ImportProcessConfig">witadmin importprocessconfiguration /collection:"https://alm-[Env].rd.allscripts.com/tfs/boc_projects" /f:"C:\tools\ProcessConfig[Env].xml"</Command>
+  </Environment>
+  <Environment name="PROD">
+    <Command name="ExportGlobalList">witadmin exportglobalist /collection:"https://alm-[Env].rd.allscripts.com/tfs/boc_projects" /f:"C:\tools\GlobalList[Env].xml"</Command>
+    <Command name="ImportGlobalList">witadmin importglobalist /collection:"https://alm-[Env].rd.allscripts.com/tfs/boc_projects" /f:"C:\tools\GlobalList[Env].xml"</Command>
+    <Command name="ExportCategories">witadmin exportcategories /collection:"https://alm-[Env].rd.allscripts.com/tfs/boc_projects" /f:"C:\tools\Cagtegories[Env].xml"</Command>
+    <Command name="ImportCategories">witadmin importcategories /collection:"https://alm-[Env].rd.allscripts.com/tfs/boc_projects" /f:"C:\tools\Cagtegories[Env].xml"</Command>
+    <Command name="ExportProcessConfig">witadmin exportprocessconfiguration /collection:"https://alm-[Env].rd.allscripts.com/tfs/boc_projects" /f:"C:\tools\ProcessConfig[Env].xml"</Command>
+    <Command name="ImportProcessConfig">witadmin importprocessconfiguration /collection:"https://alm-[Env].rd.allscripts.com/tfs/boc_projects" /f:"C:\tools\ProcessConfig[Env].xml"</Command>
+  </Environment>
+</Environments>

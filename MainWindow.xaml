@@ -1,0 +1,28 @@
+﻿<Window x:Class="AzdoCommands.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AzdoCommands"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="label" Content="Environment:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="environmentCmb" 
+                  ItemsSource="{Binding}"
+                  HorizontalAlignment="Left" 
+                  Margin="113,45,0,0" 
+                  VerticalAlignment="Top" 
+                  Width="164"/>
+        <Label x:Name="label1" Content="Output:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Execute" HorizontalAlignment="Left" Margin="304,45,0,0" VerticalAlignment="Top" Width="67" Click="button_Click"/>
+        <Label x:Name="label2" Content="Command:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="commandCmb"
+                  ItemsSource="{Binding}" 
+                  HorizontalAlignment="Left" Margin="113,12,0,0" VerticalAlignment="Top" Width="164"/>
+        <Label x:Name="label3" Content="Project:" HorizontalAlignment="Left" Margin="304,12,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="projectTxt" HorizontalAlignment="Left" Margin="381,16,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="output" HorizontalAlignment="Center" Margin="0,103,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="780" Height="321" Grid.Row="20"/>
+
+    </Grid>
+</Window>
